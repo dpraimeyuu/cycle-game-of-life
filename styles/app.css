@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Merriweather', Georgia, serif;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  background-color: #fff;
+}
+
+.app {
+  text-align: center;
+}
+
+.board {
+  border: 1px solid #000;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+}
+
+.cell--alive {
+  background-color: #000;
+}
+
+.cell--dead {
+  background-color: #fff;
+}
+
+.column {
+  display: inline-block;
+}
